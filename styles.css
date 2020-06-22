@@ -15,6 +15,7 @@ html{
         
 body {
     font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
     }
         
 header {
@@ -37,7 +38,7 @@ header img {
 }
 
 div#menu {
-    width: 17%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
 }
@@ -49,6 +50,13 @@ header div nav div a {
     text-decoration: none;
     padding: 1rem 2rem;
     border-radius: 50px;
+    border: 2px solid #1DB954;
+}
+
+#about-button {
+    background-color: #191414;
+    /* border: 2px solid #1DB954; */
+    color: white;
 }
 
 .container {
@@ -63,6 +71,7 @@ section#main-landing {
     /* align-items: center; */
     background-color: #191414;
     opacity: 90%;
+    margin-bottom: 3rem;
 }
 
 #banner {
@@ -80,19 +89,46 @@ section#main-landing {
 h1 {
     font-size: 8rem;
     padding-bottom: 3rem;
+    text-shadow: 2px 2px 3px black;
+    color: white;
 }
 
 #main-landing h2 {
     font-size: 5rem;
+    text-align: center;
     padding-bottom: 2rem;
+    text-shadow: 2px 2px 3px black;
+    color: white;
 }
 
 #main-landing a {
     display: block;
     background-color: #1DB954;
-    color: black;
+    color: WHITE;
     text-decoration: none;
     font-size: 2rem;
-    padding: 1rem 3rem;
+    padding: 1.5rem 4rem;
     border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#learn-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#learn-more div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+#learn-more div h2 {
+    margin-bottom: 1rem;
 }
