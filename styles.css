@@ -211,3 +211,10 @@ section.about p {
     border: 4px solid #191414;;
     border-radius: 10px;
 }
+.who div div h3 {
+    margin: .5rem 0;
+}
+
+.who div div p {
+    margin: .5rem 0 1rem;
+}
