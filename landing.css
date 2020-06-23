@@ -41,6 +41,16 @@ body {
     box-shadow: 2px 2px 5px black;
 }
 
+#landing-header a:hover {
+    background-color: black;
+    color: #1DB954;
+    /* color: white; */
+    font-weight: 600;
+    /* border: 2px solid #1DB954; */
+    transition: .7s;
+    box-shadow: none;
+}
+
 
  .slideshow { 
     position: fixed;
