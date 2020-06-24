@@ -23,7 +23,7 @@ body {
     padding-top: 40vh;
   }
 
- #landing-header h1 {
+ #landing-header h2 {
     color: #fff;
     font-size: 7rem;
     text-shadow: 2px 2px 3px black;
@@ -118,4 +118,25 @@ body {
   /* Older browser support - .no-cssanimations class added by modernizr */
 .no-cssanimations .slideshow li {
 	opacity: 1;
+}
+
+
+@media(max-width: 1000px){
+    #landing-header h2 {
+        font-size: 6rem;
+    }
+}
+@media(max-width: 800px){
+    #landing-header h2 {
+        font-size: 5rem;
+        margin: 0 1rem;
+    }
+}
+@media(max-width: 500px){
+    #landing-header h2 {
+        font-size: 4rem;
+    }
+    #landing-header {
+        padding-top: 30vh;
+    }
 }
