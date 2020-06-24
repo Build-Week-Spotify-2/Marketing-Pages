@@ -246,6 +246,17 @@ section.about p {
 }
 
 
+footer {
+    background-color: #191414;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 5rem;
+    margin: 3rem;
+}
+
 footer img:hover {
     transform: scale(1.2);
 }
