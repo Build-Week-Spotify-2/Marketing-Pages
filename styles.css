@@ -257,6 +257,10 @@ footer img {
     margin: 3rem;
 }
 
+footer img:hover {
+    transform: scale(1.2);
+}
+
 
 
 @media(max-width: 1000px){
