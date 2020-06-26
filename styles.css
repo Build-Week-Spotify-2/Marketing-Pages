@@ -336,4 +336,7 @@ footer img:hover {
     #main-landing a {
         font-size: 1.5rem;
     }
+    #learn-more div img {
+        width: 25%;
+    }
 }
