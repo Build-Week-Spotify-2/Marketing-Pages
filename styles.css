@@ -78,6 +78,8 @@ div#menu {
     border: 2px solid #1DB954;
 }
 
+
+
 #login-button:hover {
     background-color: black;
     color: #1DB954;
@@ -172,7 +174,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
+    margin: 3rem 0;
     text-align: center;
 }
 
@@ -182,6 +184,10 @@ h1 {
 
 #learn-more div p {
     line-height: 1.5;
+}
+
+#learn-more div img {
+    width: 20%;
 }
 
 
@@ -212,6 +218,7 @@ section.about p {
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .who div {
@@ -254,8 +261,20 @@ section.about p {
     transform: scale(1.1);
     transition: 1s;
     background-color: #1DB954;
+    box-shadow: 3px 3px 9px black;
 }
 
+span {
+    font-style: italic;
+}
+
+#thanks {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1DB954;
+    padding: 1.5rem;
+}
 
 footer {
     background-color: #191414;
